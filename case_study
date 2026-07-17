@@ -1,0 +1,81 @@
+# 🏧 ATM System Architecture
+
+A conceptual study of the architecture and working of an Automated Teller Machine (ATM) system. This repository explains the major components, transaction flow, and communication between the ATM, bank server, and database.
+
+##  Overview
+An Automated Teller Machine (ATM) allows customers to perform banking transactions such as cash withdrawal, balance inquiry, fund transfer, PIN change, and cash deposit without visiting a bank branch.
+
+This repository demonstrates the architecture of an ATM system and explains how requests are securely processed.
+
+##  Objectives
+- Understand the architecture of an ATM system.
+- Learn how ATM machines communicate with banking servers.
+- Study secure transaction processing.
+- Understand authentication and authorization.
+- Explore database interaction in banking systems.
+
+##  System Components
+- ATM Machine
+- Card Reader
+- PIN Verification Module
+- Banking Server
+- Transaction Processing Service
+- Database
+- Cash Dispenser
+- Receipt Printer
+
+##  Working Flow
+1. Customer inserts the ATM card.
+2. The ATM reads the card information.
+3. Customer enters the PIN.
+4. The PIN is sent securely to the bank server for verification.
+5. The server validates the customer's account details.
+6. The customer selects a banking service (withdrawal, deposit, balance inquiry, etc.).
+7. The request is processed by the bank server.
+8. The database is updated.
+9. The ATM dispenses cash (if applicable) and prints the receipt.
+10. The transaction is completed and the card is returned.
+
+##  Features
+- Secure PIN Authentication
+- Cash Withdrawal
+- Cash Deposit
+- Balance Inquiry
+- Mini Statement
+- Fund Transfer
+- PIN Change
+- Receipt Generation
+
+##  Benefits
+- 24×7 Banking Services
+- Fast Transaction Processing
+- Secure User Authentication
+- Reduced Workload on Bank Branches
+- Convenient Banking Experience
+
+##  Security Features
+- PIN Verification
+- Encrypted Communication
+- Secure Banking Network
+- Transaction Logging
+- Card Authentication
+
+##  Learning Outcomes
+This case study helped me understand:
+- ATM system architecture
+- Client-server communication
+- Database transactions
+- Authentication mechanisms
+- Banking system workflow
+- Secure transaction processing
+
+##  Repository Contents
+- ATM Architecture Diagram
+- ATM Workflow Diagram
+- System Documentation
+
+##  Note
+This repository is created for educational purposes to study and understand ATM system architecture. It is a conceptual case study and does not represent the implementation of a real banking system.
+
+##  License
+This project is shared for educational and learning purposes.
